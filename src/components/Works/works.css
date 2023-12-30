@@ -1,0 +1,167 @@
+#works{
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    overflow-x: hidden;
+}
+
+.worksTitle{
+   margin: 1rem 0;
+   font-size: 3rem;
+}
+
+.worksDesc{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.worksList{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
+    max-width: 75rem;
+}
+
+.work {
+    min-width: 20rem; /* tamaño mínimo que quieres */
+    min-height: 27rem; /* tamaño mínimo que quieres */
+    max-width: 20rem; /* tamaño máximo que quieres */
+    max-height: 27rem; /* tamaño máximo que quieres */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(50,50,50);
+    box-shadow: 0 0 0.5rem rgb(0,0,0,0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.workImage{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.workTitle{
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+.workLink{
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(100,100,100);
+}
+
+.workLink:hover{
+    color: #ff6b6b;
+}
+
+.workDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.work:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem #ff6b6b;
+}
+
+
+@media screen and (max-width: 768px) {
+    .work{
+        min-width: 18rem;
+        min-height: 22rem;
+        padding: 1rem;
+        width: 15rem;
+        height: 22rem;
+    }
+    .workImage{
+        width: 10rem;
+        height: 10rem;
+    }
+    .workTitle{
+        font-size: 1.3rem;
+    }
+    .workLink{
+        font-size: 0.85rem;
+    }
+    .workDescription{
+        font-size: 0.85rem;
+    }
+    .worksTitle{
+        font-size: 2.5rem;
+    }
+    .worksDescription{
+        font-size: 0.85rem;
+    }
+    
+}
+
+
+@media screen and (max-width:690px){
+    .work{
+        min-width: 15rem;
+        min-height: 18rem;
+        padding: 1rem;
+        width: 15rem;
+    }
+
+    .workImage{
+        width: 8.5rem;
+        height: 8.5rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 367px){
+    .worksTitle{
+        font-size: 2rem;
+    }
+    .worksDesc{
+        font-size: 0.75rem;
+    }
+    .work{
+        min-width: 15rem;
+        min-height: 18rem;
+        padding: 1rem;
+        width: 15rem;
+    }
+    .workImage{
+        width: 7rem;
+        height: 7rem;
+    }
+    .workTitle{
+        font-size: 1.2rem;
+    }
+    .workLink{
+        font-size: 0.75rem;
+    }
+    .workDescription{
+        font-size: 0.75rem;
+    }
+}
+
+

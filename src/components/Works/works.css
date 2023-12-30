@@ -82,7 +82,7 @@
     font-weight: 300;
 }
 
-.work:hover{
+.work:hover, .work.touched{
     transform: scale(1.05);
     box-shadow: 0 0 1rem #ff6b6b;
 }
@@ -161,6 +161,11 @@
     }
     .workDescription{
         font-size: 0.75rem;
+    }
+
+    .workFocus{
+        transform: scale(1.05);
+        box-shadow: 0 0 1rem #ff6b6b;
     }
 }
 

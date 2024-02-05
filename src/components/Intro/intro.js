@@ -9,7 +9,7 @@ const Intro = () => {
             <div className="introContent">
                 <span className="hello">Hola,</span>
                 <span className="introText">Soy <span className="introName">Julian Gallardo</span> <br/> Estudiante de Ingenieria en Sistemas</span>
-                <p className="introPara">Soy un estudiante avanzado de la carrera Ingenieria En Sistemas de Informacion en la Universidad Nacional Del Sur ubicada en Bahia Blanca,Buenos Aires, Argentina. </p>
+                <p className="introPara">Soy un estudiante avanzado de la carrera Ingenieria En Sistemas de Informacion en la Universidad Nacional Del Sur ubicada en Bahia Blanca,Buenos Aires,Argentina. </p>
                 
             </div>
             <img src={bg} alt="profile" className="bg"/>

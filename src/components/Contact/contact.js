@@ -54,13 +54,11 @@ const Contact = () => {
                     <button className="contactBtn" type="submit" value="Send">Enviar</button>
                 </form>
                 <div className="contactList">
-                    <a className="contactLink" href="https://twitter.com/JuliaanGallardo">
-                        <img className="ContactImage" src={TwitterIcon} alt="Twitter Icon"/>
-                    </a>
+                    
                     <a className="contactLink" href="http://www.instagram.com/juliangallardoo_">
                         <img className="ContactImage" src={InstagramIcon} alt="Instagram Icon"/>
                     </a>
-                    <a className="contactLinkLinkedIn" href="">
+                    <a className="contactLinkLinkedIn" href="https://www.linkedin.com/in/julian-gallardo-5298162b2/">
                         <img className="ContactImageLinkedIn" src={LinkedInIcon} alt="Linked In Icon"/>
                     </a>
                 </div>

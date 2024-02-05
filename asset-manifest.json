@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.393eca66.css",
+    "main.js": "/portfolio/static/js/main.a63994fb.js",
+    "static/media/image.png": "/portfolio/static/media/image.48563c5591e6fccc01d6.png",
+    "static/media/linkedInIcon.png": "/portfolio/static/media/linkedInIcon.6ac77341c7a1f1743ba6.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.211f9f22139386d20767.png",
+    "static/media/desarrollo-de-software.png": "/portfolio/static/media/desarrollo-de-software.48a2ac74b7fc51cb615a.png",
+    "static/media/pvzIcon.jpg": "/portfolio/static/media/pvzIcon.2a974b7b0f17ef636b2a.jpg",
+    "static/media/2048icon.png": "/portfolio/static/media/2048icon.955885c188b0eea1de50.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.4610cbabbff468ff8ae3.png",
+    "static/media/codigo.png": "/portfolio/static/media/codigo.2bef200d1f0dccfe14ab.png",
+    "static/media/parquimetroIcon.png": "/portfolio/static/media/parquimetroIcon.7d135e8dca70998066e5.png",
+    "static/media/shellIcon.png": "/portfolio/static/media/shellIcon.a530be417bcf66cf602b.png",
+    "static/media/snakeIcon.jpg": "/portfolio/static/media/snakeIcon.fe010eb43dfb2ff2e4b4.jpg",
+    "static/media/instagram.png": "/portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/portfolio/index.html",
+    "main.393eca66.css.map": "/portfolio/static/css/main.393eca66.css.map",
+    "main.a63994fb.js.map": "/portfolio/static/js/main.a63994fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.393eca66.css",
+    "static/js/main.a63994fb.js"
+  ]
+}

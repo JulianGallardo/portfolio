@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "description": "This is my portfolio website",
-  "homepage": "https://juliangallardo.github.io/portfolio/", 
+  "homepage": "https://juliangallardo.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
